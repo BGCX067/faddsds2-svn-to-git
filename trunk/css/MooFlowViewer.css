@@ -1,0 +1,32 @@
+.mf a.show {
+	position:absolute;
+	margin-left:-16px;
+	width:32px;
+	height:32px;
+	top:76%;
+	left:50%;
+	z-index:100;
+	cursor:pointer;
+}
+.mf a.show.image{
+	background:url(../images/mooflow/open_image.png) no-repeat 50%;
+}
+.mf a.show.viewerload{
+	background:url(js/Mooflow/ajax_loader.gif) no-repeat 50%;
+}
+.mf a.show.link{
+	/*background:url(js/Mooflow/open_link.png) no-repeat 50%;*/
+	background:url(../images/mooflow/open_image.png) no-repeat 50%;
+}
+.mf div.tooltip{
+	background:url(../images/mooflow/tooltip.png) no-repeat 50%;
+	width:262px;
+	margin-left:-151px;
+	height:70px;
+	padding:20px;
+	position:absolute;
+	z-index:101;
+	top:0;
+	left:50%;
+	text-align:center;
+}
